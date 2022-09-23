@@ -1,0 +1,12 @@
+
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Site Title'
+summaryLength = 30
+
+[permalinks]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="h-full w-full">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="example description">
+    <link href="./css/default.css" rel="stylesheet">
+    <title> {{.Site.Title }}</title>
+  </head> 
+  <!-- header -->
+  {{ partial "header.html" }}
+  <!-- header -->
+
+  <!-- body -->
+  <body class="h-full w-full">
+  {{ block "main" . }} {{ end }}
+  </body>
+  <!-- /body -->
+
+  <!-- footer -->
+  {{ partial "footer.html" }}
+  <!-- /footer -->
+  
+</html>

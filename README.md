@@ -1,0 +1,2 @@
+# Hugo-Tailwind
+> starter
