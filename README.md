@@ -1,8 +1,6 @@
-# hugo-tailwind 
+# hugo-tailwind 🍃
 
 > Repo template for [Hugo](https://gohugo.io/) + [Tailwind](https://tailwindcss.com/) projects at [Bale Studio](https://bale.studio)
-
-## About
 
 ## Install
 
