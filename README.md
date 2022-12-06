@@ -5,10 +5,8 @@
 ## Install
 
 ```sh
-# Install Yarn
+# Install hugo
 brew install hugo
-
-# Install 
 ```
 
 ### Development
@@ -26,14 +24,7 @@ npm run h
 ```sh
 # Build front-end for production
 hugo -D
-
 # (by this time, the tailwind dependencies are already built)
-```
-
-### Deployment
-
-```sh
-
 ```
 
 ## License
